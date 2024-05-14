@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    width: 8px;  /* Width of the scrollbar */
+    height: 8px;  /* Height of the horizontal scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1e293b;  /* Background color of the track (slate-900) */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #0f172a;  /* Thumb color (darker slate-900) */
+    border-radius: 8px;  /* Rounded corners */
+    border: 2px solid #1e293b;  /* Border around the thumb to add some padding */
+  }
+  
+  /* For Firefox */
+  html {
+    scrollbar-color: #0f172a #1e293b;  /* Thumb color #0f172a, track color #1e293b */
+    scrollbar-width: thin;  /* Thin scrollbar width */
+  }
