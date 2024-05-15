@@ -142,7 +142,7 @@ const Manager = () => {
                 theme="dark"
             />
 
-            <div className='bg-green-800 md:h-[75%] h-[75%] md:w-[50%] w-[90%] mx-auto my-10 p-4 rounded-xl text-white border-2 border-white flex flex-col gap-4 md:text-base text-[10px]'>
+            <div className='bg-green-800 md:h-[75%] h-[70%] md:w-[50%] w-[90%] mx-auto my-10 p-4 rounded-xl text-white border-2 border-white flex flex-col gap-4 md:text-base text-[10px]'>
                 <div className='text-center text-xl'>Your Passwords</div>
                 <div>
                     <input onChange={handleChange} className='w-full p-2 rounded-xl text-black' type="text" name="site" id="site" value={row.site} placeholder='Enter URL' />
